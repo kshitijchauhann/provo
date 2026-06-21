@@ -31,7 +31,10 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
+.env.*
 .env*.local
+*.env
 
 # typescript
 *.tsbuildinfo
@@ -41,3 +44,9 @@ app-example
 # generated native folders
 /ios
 /android
+
+# wrangler & turbo
+.wrangler/
+.turbo/
+dist/
+build/

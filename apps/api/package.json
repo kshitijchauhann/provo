@@ -1,0 +1,19 @@
+{
+  "name": "@provo/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "hono": "^4.6.1",
+    "@provo/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^3.83.0"
+  }
+}

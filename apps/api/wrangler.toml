@@ -1,0 +1,6 @@
+name = "provo-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-22"
+
+[vars]
+# Environment variables will be populated here
